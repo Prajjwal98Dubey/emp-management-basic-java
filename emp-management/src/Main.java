@@ -1,8 +1,6 @@
 import java.util.ArrayList;
 import java.util.Scanner;
-
 import mypackage.EmpClass;
-
 public class Main {
     public static void executeFunction(int option, EmpClass emp) {
         Scanner sc = new Scanner(System.in);

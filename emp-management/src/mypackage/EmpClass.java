@@ -7,10 +7,10 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
 public class EmpClass {
-    String DB_URL = "jdbc:mysql://localhost:3306/";
-    String USER = "root";
-    String PASS = "Prajjwal1998@";
-    String MY_DB = "EMPLOYEE";
+    String DB_URL = EmployeeSecrets.DB;
+    String USER = EmployeeSecrets.USER;
+    String PASS = EmployeeSecrets.PASS;
+    String MY_DB = EmployeeSecrets.MY_DB;
 
     public void createDatabase() {
         try {
